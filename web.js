@@ -10,6 +10,10 @@ app.get('/', function(req, res) {
   res.render('index.ejs');
 })
 
+app.get('/bonjour', function(req, res) {
+  res.render('index.ejs');
+})
+
 .use(function(req, res, next){
     res.redirect('/');
 });
