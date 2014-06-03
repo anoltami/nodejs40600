@@ -1,17 +1,22 @@
 {
-    "name": "hello",
-    "version": "0.1.0",
-    "dependencies": {
-        "express": "~4.2.0",
-        "ejs": "~1.0.0",
-        "body-parser": "~1.2.0",
-        "cookie-parser": "~1.1.0",
-        "express-session": "~1.2.0",
-        "serve-favicon": "~2.0.0",
-        "socket.io": "~0.9.16",
-        "ent": "~2.0.0"
-
-    },
-    "author": "Anoltami <jriffarddev@gmail.com>",
-    "description": "une appli en nodejs"
+  "name": "package.json",
+  "version": "0.1.0",
+  "description": "une petite application nodejs",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "jriffard",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.4.1",
+    "logfmt": "^1.1.2"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
 }
